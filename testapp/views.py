@@ -53,6 +53,14 @@ class RegistrationView(APIView):
 
 
 
+
+
+
+
+
+
+
+
 # Post data:
     def post(self, request):
         try:
@@ -72,6 +80,12 @@ class RegistrationView(APIView):
         except Exception as e:
             print(e)
             return Response({'message': 'something went wrong'}, status=status.HTTP_400_BAD_REQUEST)
+
+
+
+
+
+
 
 
 
