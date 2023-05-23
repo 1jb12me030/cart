@@ -47,7 +47,7 @@ class RegistrationView(APIView):
 
         except Exception as e:
             print(e)
-            return Response({'message': 'Something went wrong'}, status=status.HTTP_400_BAD_REQUEST)
+            return Response({'message': 'Something went wrong but not here check code'}, status=status.HTTP_400_BAD_REQUEST)
 
 
 
